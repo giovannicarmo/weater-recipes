@@ -1,9 +1,9 @@
 import express from 'express';
-import WeatherController from './controllers/weatherController';
+import WeatherRecipesController from './controllers/weatherRecipesController';
 
 const routes = express.Router();
-const weaterController = new WeatherController();
+const weaterController = new WeatherRecipesController();
 
-routes.get('/weather/:city', weaterController.getByCity);
+routes.get('/weather/:city', weaterController.getWeatherRecipes);
 
 export default routes;
