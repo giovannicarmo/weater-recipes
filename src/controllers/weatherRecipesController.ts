@@ -18,7 +18,7 @@ class WeatherRecipesController {
         stausCode = 200;
         body = { weather, recipes };
       } else {
-        body = { message: 'Enter a valid city.' };
+        body = 'Enter a valid city.';
       }
     } catch (error) {
       throw new Error(error);
