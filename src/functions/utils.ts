@@ -26,9 +26,9 @@ export const getWeather = (city: string): Promise<any> =>
  */
 const deserializeRecipes = (arr: []) =>
   arr.map((el: any) => {
-    const { label, image, ingredientLines } = el.recipe;
+    const { label, image, dietLabels, healthLabels, ingredientLines } = el.recipe;
 
-    return { label, image, ingredientLines };
+    return { label, image, dietLabels, healthLabels, ingredientLines };
   });
 
 /**
