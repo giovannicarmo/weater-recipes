@@ -1,29 +1,13 @@
-# README #
+# README
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Seguem abaixo os comandos necessários para excutar a aplicação.
 
-### What is this repository for? ###
+### Quais ferramentas preciso?
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- node (npm);
 
-### How do I get set up? ###
+### Como realizo o build local?
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+- Na pasta raiz do projeto (via terminal): npm run local:build
+- Acesse a pasta com o código transpilado "/dist" e execute via terminal: node index.js
+- Após executar os passos acima, você poderá executar a aplicação através de http://localhost:3333
